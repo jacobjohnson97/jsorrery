@@ -10,6 +10,9 @@ import nearEarthObject from './scenarios/NearEarthObject';
 import bigJupiter from './scenarios/BigJupiter';
 import moonSOI from './scenarios/MoonSOI';
 
+import moonSun from './scenarios/MoonSun';
+import noSun from './scenarios/NoSun';
+
 const all = [
 	solarSystem,
 	solarSystemDwarves,
@@ -21,6 +24,8 @@ const all = [
 	nearEarthObject,
 	bigJupiter,
 	moonSOI,
+	moonSun,
+	noSun,
 ];
 
 export function buildScenario(scenario) {

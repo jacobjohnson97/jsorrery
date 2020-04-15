@@ -163,7 +163,7 @@ export default class JSOrreryScene {
 			body3d = new Body3D(celestialBody);
 		}
 
-		this.labels.addPlanetLabel(celestialBody.title || celestialBody.name, body3d);
+		this.labels.addPlanetLabel(celestialBody.title || celestialBody.name, celestialBody.help || '<span class="help fa fa-question-circle" data-for="helpDeltaT">&nbsp;</span>', body3d);
 
 		this.bodies3d.push(body3d);
 		this.root.add(body3d.getDisplayObject());

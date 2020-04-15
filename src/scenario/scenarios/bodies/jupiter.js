@@ -5,6 +5,7 @@ import { AU } from '../../../core/constants';
 export const jupiter = {
 	title: 'Jupiter',
 	name: 'jupiter',
+	help: '<br>It takes 43 minutes for sunlight to reach Jupiter',
 	mass: 1.8986e27,
 	radius: 71492,
 	color: '#ff9932',

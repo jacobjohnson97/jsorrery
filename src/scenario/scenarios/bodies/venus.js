@@ -4,6 +4,7 @@ import { AU } from '../../../core/constants';
 export const venus = {
 	title: 'Venus',
 	name: 'venus',
+	help: '<br>Venus has no moons!',
 	mass: 4.868e24,
 	radius: 6051,
 	color: '#fda700',

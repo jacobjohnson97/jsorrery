@@ -18,6 +18,7 @@ const baseRotation = (((J2000Date - solstice) / 1000) / (YEAR * SIDEREAL_DAY));
 export const earth = {
 	title: 'The Earth',
 	name: 'earth',
+	help: '<br>Earth has an almost perfectly circular orbit',
 	mass: 5.9736e24,
 	radius: 3443.9307 * NM_TO_KM,
 	color: '#1F7CDA',

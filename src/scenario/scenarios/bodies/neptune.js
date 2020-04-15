@@ -4,6 +4,7 @@ import { AU } from '../../../core/constants';
 export const neptune = {
 	title: 'Neptune',
 	name: 'neptune',
+	help: '<br>Neptune is the smallest gas giant',
 	mass: 1.0243e26,
 	radius: 24764,
 	color: '#3299ff',

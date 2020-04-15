@@ -4,6 +4,7 @@ import { AU } from '../../../core/constants';
 export const uranus = {
 	title: 'Uranus',
 	name: 'uranus',
+	help: 'Uranus is spewing gas into space',
 	mass: 8.6810e25,
 	radius: 25559,
 	color: '#99ccff',

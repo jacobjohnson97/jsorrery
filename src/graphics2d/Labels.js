@@ -85,8 +85,9 @@ export default class Labels {
 		};
 	}
 
-	addPlanetLabel(title, body3d, domContainer) {
-		const el = $(`<div class="planetSpot" data-shown="true"><div class="planetLabel">${title}</div></div>`).appendTo(this.rootDomEl);
+	addPlanetLabel(title, help, body3d, domContainer) {
+		console.log(help)
+		const el = $(`<div class="planetSpot" data-shown="true"><div class="planetLabel">${title} ${help}</div></div>`).appendTo(this.rootDomEl);
 		
 		this.labels.push({
 			el,

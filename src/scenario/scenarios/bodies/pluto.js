@@ -4,6 +4,7 @@ import { AU } from '../../../core/constants';
 export const pluto = {
 	title: 'Pluto',
 	name: 'pluto',
+	help: '<br>Pluto is shown for nostalgia despite not being a planet',
 	mass: 1.305e22 + 1.52e21,
 	radius: 1153,
 	color: '#aaaaaa',

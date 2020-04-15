@@ -4,6 +4,7 @@ import { AU, DAY } from '../../../core/constants';
 export const mars = {
 	title: 'Mars',
 	name: 'mars',
+	help: '<br>Mars had a much thicker atmosphere long ago.',
 	mass: 6.4185e23,
 	radius: 3376,
 	color: '#ff3300',

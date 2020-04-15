@@ -4,6 +4,7 @@ import { AU } from '../../../core/constants';
 export const saturn = {
 	title: 'Saturn',
 	name: 'saturn',
+	help: '<br>Saturn has at least 62 moons!',
 	mass: 5.6846e26,
 	radius: 58232,
 	color: '#ffcc99',

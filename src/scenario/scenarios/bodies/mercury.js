@@ -3,6 +3,7 @@ import { AU } from '../../../core/constants';
 
 export const mercury = {
 	title: 'Mercury',
+	help: '<br>Despite being closest to the sun, ice exists in craters.',
 	name: 'mercury',
 	mass: 3.3022e23,
 	radius: 2439,

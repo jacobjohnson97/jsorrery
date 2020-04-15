@@ -7,6 +7,7 @@ export const radius = 6.96342e5;
 export const sun = {
 	title: 'The Sun',
 	name: 'sun',
+	help: '<br>The sun\'s magnetic field is only twice as strong as Earth\'s',
 	mass: 1.9891e30,
 	radius,
 	color: '#ffff00',

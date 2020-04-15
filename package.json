@@ -50,6 +50,7 @@
   "keywords": [],
   "dependencies": {
     "express":"*",
+    "morgan":"*",
     "bluebird": "^3.4.1",
     "css-loader": "^0.26.1",
     "gsap": "^1.19.0",
